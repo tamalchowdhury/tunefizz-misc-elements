@@ -88,6 +88,13 @@ body {
 
 /* menu styles */
 
+:root {
+  --c1: #b00711;
+  --c2: #e80622;
+  --c3: #b00711;
+  --c4: #431900;
+}
+
 .menu__item {
   display: flex;
   align-items: center;
@@ -101,7 +108,7 @@ body {
 }
 
 .menu__item:hover {
-  border: 3px solid purple;
+  border: 3px solid #b00711;
   opacity: 1;
   color: #fff !important;
 }
